@@ -3,13 +3,13 @@
     "babel-loader": "^6.2.5",
     "babel-polyfill": "^6.13.0",
     "babel-preset-es2015": "^6.14.0",
+    "babel-preset-es2017": "^6.14.0",
     "copy-webpack-plugin": "^3.0.1",
     "webpack": "^2.0.7-beta"
-
   },
   "scripts": {
-    "build": "webpack --optimize-minimize",
-    "watch": "webpack --optimize-minimize --watch"
+    "build": "webpack -p",
+    "watch": "webpack -p --watch"
   },
   "author": "Axel Rauschmayer",
   "license": "MIT"
