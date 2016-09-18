@@ -24,7 +24,9 @@ module.exports = {
                 loader: 'babel-loader',
                 test: dir_js,
                 query: {
-                    presets: ['es2015', {modules: false}],
+                    presets: [
+                      ['es2015', {modules: false}]
+                    ]
 
                     // All of the plugins of babel-preset-es2015,
                     // minus babel-plugin-transform-es2015-modules-commonjs
